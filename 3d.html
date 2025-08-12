@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D v\s 3D</title>
+    <style>
+        body{
+            margin:1cm;
+            padding:1px;
+        }
+        .a:hover{
+            transform: rotateX(360deg);
+            transition: 2s;
+        }
+        .b:hover{
+            transform: translate(50deg);
+            transition: 2s;
+        }
+        .c:hover{
+            transform: skew(360deg);
+            transition: 2s;
+        }
+        .d:hover{
+            transform: scale3d(40deg);
+        }
+        div{
+            height:3cm;
+            width:3cm;
+            border: 1px solid grey;
+            margin: 10px;
+            text-align: center;
+            margin-left: 50%;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>2D v\s 3D Transformation</h1>
+    <div class="a">Rotate me</div>
+    <div class="b">Move me</div>
+    <div class="c">Make me wider</div>
+    <div class="d">Make me stretch</div>
+
+</body>
+</html>

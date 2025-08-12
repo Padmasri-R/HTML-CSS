@@ -1,0 +1,24 @@
+body{
+    h1{
+        color:darkorange;
+        background-color: bisque;
+        font-size: 5px;
+        font-family: gill sans;
+        font-display:initial;
+        font-variant:small-caps;
+        font-language-override:normal;
+    }
+    p{
+        color:deeppink;
+        font-size: 10px;
+        font-family: gill sans;
+        font-weight: 200;
+        font-style: oblique;
+        font-variant:small-caps;
+        
+
+    }
+    .a{
+        
+    }
+}
